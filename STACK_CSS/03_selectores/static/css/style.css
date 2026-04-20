@@ -1,0 +1,81 @@
+{
+        /*selector comodín (seleciona todo los elementos html) */
+        /* ouline: 1px solid crimdon; */
+        /* linea externa de 2px*/
+
+       margin: 0;
+        /* formates espacios externos del elemento html*/
+        padding: 0;>
+    }
+
+    /*formatea espacios internos de elemnto html*/
+        
+        box-sizzing;
+        border-box;
+    
+
+    h1 {
+        color: rebeccapurple;
+        background-color: aquamarine;
+    }
+
+    .green {
+        color: mediumseagreen;
+    }
+
+    #red {
+        color: tomato;
+    }
+
+    .quote p {
+        color: darkslategrey;
+        font-style: italic;
+    }
+
+    .quote h4 {
+        color: rgb(rgb(120, 213, 213));
+        font-weight: bold;
+        /* negrita */
+    }
+
+    .header>img {
+        /* solo afecta alos elementos de hijos directos (>) */
+        height: 50px;
+        /* altura de imagen*/
+    }
+
+    #container p {
+        font-size: 16px;
+        background-color: #444;
+        color: white;
+    }
+
+    #container p.highlight {
+        font-weight: bold;
+        color: gold;
+    }
+
+    input[type="text"] { /* seleccion de elementos a traves de */
+        border: 2px solid royalblue;
+    }
+
+    input[type="submit"] {
+        color: white;
+        background-color: mediumvioletred;
+        border: none;
+        /* quita los bordes */
+        padding: 5px;
+        cursor: pointer;
+        /* manito para realizar click*/
+    }
+
+    .color_nombre{
+        color:greenyellow
+        
+    }
+    .color_rgb{
+        color:chocolate
+    }
+    .color_hexa{
+        color:darksalmon
+    }
