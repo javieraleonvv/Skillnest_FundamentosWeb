@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*Contabiliza bordes */
+    outline: solid 1px pink;
+
+}
+
+.encabezado {
+    width: 100%;
+    /*todo el ancho de la pagina */
+    background-color: hotpink;
+}
+
+.titulo_header {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    outline: solid;
+    margin: 0% auto;
+    width: 900px;
+    padding: 20px;
+}
+
+.aceptar {
+    width: 100px;
+    height: 50px;
+}
+
+.caja1 {
+    width: 80%;
+    /* Porcentaje para dar tamaño 80/100 */
+    height: 200px;
+    background-color: darkorchid;
+}
+
+.parrafo1 {
+    font-size: 16px;
+}
+
+.link1 {
+    font-size: 300%;
+    /*tamaño proporcional*/
+}
+
+
+
+/* Manejo del contenido con overflow: hidden, scroll, auto
+*/
+
+
+div {
+    width: 200px;
+    height: 100px;
+}
+
+.example1{
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.example2{
+    height: 100px;
+    width: 300px;
+    background-color: green;
+    overflow: scroll;
+}
+
+.example3{
+    height: 100px;
+    width: 300px;
+    background-color: blueviolet;
+    overflow: auto;
+}
+
+.hidden {
+    overflow: hidden;
+    /* Oculta los elementos que sobresalen del contenedor*/
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.auto {
+    overflow: auto;
+}
+/*🎨 Fondo y colores*/
+.banner {
+    height: 500px;
+    width: 100%;
+    background: red url("/STACK_CSS/06_tamaños/static/images/mem4.png")  center;
+    background-size: 10%;
+}
+/*bordes y estilos */
+.cancelar {
+    border: 2px dotted rgb(175, 111, 190); /*dotted: linea segmentada............*/
+    padding: 15px;
+    cursor: pointer;
+}
+
+.articulo {
+    border: 2px solid black; /* solid: línea sólida*/
+    height: 50px;
+    width: 100px;
+}
+/* bordes redondeados*/
+button_redondeado {
+    border-radius: 5px; /* redondea esquinas */
+    border-radius: 15px; /* redondeando esquinas*/
+    cursor: pointer;
+}
+
+.caja_redondeada {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding:10px 16px;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%; /* 50% de radius: circulo perfecto*/
+}
+.cajitas{
+    width: 150px;
+    height: 40px;
+    outline: solid 1px blue;
+}
+.box1{background-color: aqua;  
+    padding: 10px; /* padding aplicado en todos lados*/
+}
+.box2{background-color: cornflowerblue;
+    padding-top: 0px; /* espacio interno:arriba*/
+    padding-right: 5px; /* espacio interno:derecha*/
+    padding-left: 5px;/*espacio interno: izquierda*/
+    /*padding: 0px 5px 5px 0px 5px --> aplicandoio en todos lados*/
+    /*padding: opx 5px--> 0px del eje (y) y el 5px del eje (x)*/
+}
+.box3{background-color: coral;
+    margin: 10px; /* margen externo: separa elementos */
+}
+.box4{background-color: darkseagreen;
+    margin: 0px 10px; /* eje X  modificado con margin*/
+    padding:5px 0px; /* eje Y modificado con padding*/
+
+}
+.box5{
+    float: left;
+    width: 30%;
+}
