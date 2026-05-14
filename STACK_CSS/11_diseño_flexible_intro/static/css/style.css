@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    /* Activa flexbox en este contenedor */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.item {
+    background-color: #00ade5;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+}
+
+.start {
+    justify-content: flex-start;
+    /*alinear elementos*/
+}
+
+.center {
+    justify-content: center;
+    /*centrar elementos*/
+}
+
+.space-between {
+    justify-content: space-between;
+    /*distribucion de elementos perfectos*/
+
+}
+
+/*ejemplo skillnest*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+
+    /* Propiedades flexbox */
+    display: flex;
+    justify-content: space-between;
+}
+
+.elemento {
+    margin: 10px;
+    background-color: #00ade5;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}

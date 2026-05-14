@@ -1,0 +1,19 @@
+.body{
+    background-color: #bbb9b7;
+
+}
+
+.parte superior{
+    text-align: center;
+    background-color: #208614;
+    box-sizing: border-box;
+    color: white;
+}
+.button{
+    background-color:#FEF304 ;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.bloque{
+    background-color: #E41F13;
+}
