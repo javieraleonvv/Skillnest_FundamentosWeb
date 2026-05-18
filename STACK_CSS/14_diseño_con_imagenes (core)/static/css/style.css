@@ -1,0 +1,16 @@
+.titulo{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.container{
+display: flex;
+justify-content: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(175, 175, 175);
+    margin: 10px
+}
