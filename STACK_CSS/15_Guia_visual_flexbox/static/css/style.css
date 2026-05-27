@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(160, 75, 160);
+    font-family: 'Times New Roman', Times, serif;
+    color: deeppink;
+}
+header{
+    background-color: deepskyblue;
+    color: rgb(127, 246, 255);
+    text-align: center;
+    padding: 30px;
+    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    background-color: aqua;
+    padding: 15px;
+}
+.nav a{
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: bold;
+}
+main{
+    padding: 30px;
+}
+.seccion{
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px;
+}
