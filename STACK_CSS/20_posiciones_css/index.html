@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posiciones de elementos css</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="barra-navegacion">
+            <h1>Position: static</h1>
+            <a href="#" class="enlace-nav">Haz scroll hacia abajo ⬇</a>
+        </nav>
+    </header>
+    <main class="contenedor_principal">
+
+        <section class="tarjeta">
+            <h2>position: static</h2>
+            <p> el bosque ocuro tiene <code>top:40px</code> en
+                el codigo, pero al ser <b>static</b>, ignora la orden
+                y se queda en fila.</p>
+            <div class="bloque-normal">bloque 1</div>
+            <div class="bloque-estatico">bloque 2(intento moverse)</div>
+            <div class="bloque-normal">bloque 3</div>
+            <div class="caja">
+                hola
+            </div>
+        </section>
+        <section class="tarjeta">
+            <h2>position: relative</h2>
+            <p class="explicacion">El bloque naranja e movio 25px
+                hacia abajo, pero <b>dejo huecos</b>(el molde puntuado)
+                que impide subir al bloque</p>
+            <div class="bloque-normal">bloque 1</div>
+            <div class="bloque-fantasma">bloque2 (se movio)</div>
+            <div class="bloque-relativo">bloque 3</div>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <h2>position: absolute</h2>
+            <p class="explicacion">El boton rojo (X) flota amnclado
+                a la esquina de su contenedor (relative), <b>sin estorbar
+                    ni empujar</b>al texto</p>
+            <div class="ventana-modal">
+                <div class="boton-cerrar">X</div>
+                <p style="color: grey;font-size: 1;">soy el contenido de una ventana. la "X" flota encima
+                    de mi gracias a mi position absolute.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
