@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: rgb(221, 221, 221);
+}
+
+.barra-navegacion {
+    display: flex;
+    /* flex aplicado en header */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #334767;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.664);
+
+}
+
+.logotipo {
+    font-size: 1.5rem;
+    /* Tamaño letra rem: es tamaño*/
+    font-weight: 700;
+    /* Grosor de letra */
+    color: white;
+}
+
+.nav {
+    display: flex;
+    /*Flex aplicado en navBar */
+    align-items: center;
+    gap: 20px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    /* quita subrayado */
+    color: #dfe5ec;
+    font-weight: 500;
+}
+
+.boton-principal {
+    background-color: rgb(36, 99, 235);
+    color: white;
+    border: none;
+    /*Quita borde por defecto */
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    /*Añade una mano cuando mouse para encima */
+    border-radius: 6px;
+}
+
+.contenedor-principal {
+    display: flex;
+    padding: 50px;
+}
+
+.superior-tarjeta {
+    background-color: rgb(5, 110, 209);
+    height: 100px;
+
+}
+
+.tarjeta-perfil {
+    background-color: white;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 2px 2px 6px grey;
+    width: 600px;
+}
+
+.descripcion-tarjeta {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subtitulo {
+    color: rgba(0, 0, 0, 0.685);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subtitulo h2 {
+    font-size: 15px;
+}
+
+.columna-izquierda {
+    flex: 2;
+    max-height: 400px;
+    justify-content: flex-end;
+    padding: 30px 100px 500px 200px;
+    overflow: hidden;
+}
+
+.columna-derecha {
+    flex: 1;
+}
+
+
+.subtitulo button {
+    border-color: rgb(0, 132, 255);
+    color: rgb(0, 132, 255);
+    background-color: white;
+    padding: 5px;
+}
+
+.emoji {
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.nombres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.conexiones-tarjeta {
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 2px 2px 6px grey;
+}
+
+
+
+.tarjeta-conexiones {
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 6px grey;
+}
+
+.descripcion-tarjeta img {
+    border-radius: 50%;
+    border: 2px white;
+    height: 120px;
+    position: absolute;
+    top: -110px;
+}
+
+.descripcion-tarjeta {
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.descripcion-tarjeta a {
+    text-decoration: none;
+    color: rgb(26, 133, 220);
+}
+
+.row {
+    gap: 20px;
+    padding: 3px;
+}
+.ver{
+    
+}
