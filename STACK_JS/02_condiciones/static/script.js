@@ -61,6 +61,7 @@ function AccesoEvento(){
 //  “Temperatura extrema”.
 
 
+
 // ✅ Ejercicio 4: Verificación de administrador
 // 📝 Enunciado
 // Solicitar:
