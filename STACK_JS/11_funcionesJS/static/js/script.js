@@ -58,3 +58,18 @@ crear una funcion que reciba parametros y permita a traves de un bucle contar ha
 
 eje: se recibe el numero 5 y muestra: 1-2-3-4-5
 */
+
+function mostrarConteo(a){
+    let parametros =parseInt(prompt(`ingrese ellimite del contador`));
+
+    resultado = contadorNumeros(parametros);
+    alert(resultado.join("-"));
+    
+}
+function contadorNumeros(a){
+    let numeros =[];
+    for (let i=1; i <= a; i++) {
+        numeros.push(i);
+    }
+    return numeros;
+} 
