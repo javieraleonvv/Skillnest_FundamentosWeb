@@ -19,10 +19,13 @@ crear dos botones con evento onmouseover y onmouseout
 -cambiar el color de fondo y color de texto del segundo boton
 */
 
- const boton =document.getElementById("miboton2");
+ const boton1 =document.getElementById("miboton2");
 
-boton.addEventListener("mouseover" , function ()) {
-    console.log("pan con queso y mantequilla");
-    boton.style.backgroundColor = "yellow";
+boton1.addEventListener("mouseover" , function ()); {
+    console.log("la salsapica?");
+    boton2.style.backgroundColor = "yellow";
+    boton2.style.color = "grey";
+    boton2.textContent = "claro que pica";
+
 }
 

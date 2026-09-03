@@ -1,0 +1,106 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+
+body {
+   color: #ffffff;
+   background-color: #fffcfc;
+   font-family: Arial, sans-serif;
+}
+
+.navbar{
+    background-color: rgb(92, 90, 88);
+    padding: 12px 24px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 50px;
+    display: flex;
+}
+.contenedor-izquierda{
+flex:1
+}
+.tarjeta button{
+  padding: 6px 12px;
+  background-color: #2B9DC0;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+ 
+
+}
+.contenedor-derecha{
+  flex: 2;
+  background-color: rgb(255, 252, 250);
+  color: black;
+  padding: 10px;
+  border-radius: 12px;
+  max-width: 900px;
+  align-items: center;
+
+}
+.publicaciones{
+  background-color: rgb(218, 214, 214);
+  flex-direction: column;
+  box-shadow: 0 4px 12px ;
+  max-width: 700px;
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+.meGusta{
+  flex-direction: row;
+  display: flex ;
+  align-items: center;
+  
+}
+.meGusta button{
+  background-color: rgb(228, 186, 1);
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  
+
+
+}
+.encabezado-publicacion {
+
+  display: flex;
+  justify-content: space-between;
+
+ 
+
+}
+
+
+.tarjeta{
+  background-color: #fffdfd;
+  color: black;
+  padding: 60px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(2, 2, 2, 0.973);
+  max-width: 300px;
+  text-align: center;
+  
+  
+}
+
+.tarjeta img{
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: flex;
+  cursor: pointer;
+  
+};
+
+

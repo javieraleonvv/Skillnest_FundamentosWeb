@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="javiera leon">
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <title>Me Gusta</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>Social Like</h1>
+
+    </div>
+    <main class="container">
+        <div class="contenedor-izquierda">
+            <section class="tarjeta">
+                <img id="imagen" src="static/images/misato (2).PNG">
+                <h3 class="nombre">Misato</h3>
+                <button class="boton">
+                    <p>Mi Perfil</p>
+                </button>
+            </section>
+        </div>
+
+        <section class="contenedor-derecha">
+            <div class="comentario1">
+                <h1>Últimas Publicaciones</h1>
+            </div>
+
+            <div class="publicaciones">
+                <div class="encabezado-publicacion">
+                    <h2>rei</h2>
+                    <div class="meGusta">
+                        <p><span id="contador">0</span>Like(s)</p>
+                        <button onclick="sumarLike()">Like</button>
+                    </div>
+                </div>
+                <p>acabo de configurar este nuevo <a href="#">bot de discord</a> que opinan ustedes </p>
+
+            </div>
+
+            <div class="publicaciones">
+                <div class="encabezado-publicacion">
+                    <h2>Asuka</h2>
+                    <div class="meGusta">
+                        <p><span id="contador2">0</span>Like(s)</p>
+                        <button onclick="sumarLike2()">Like</button>
+                    </div>
+                    </div>
+                    <p>acabo de leer este <a href="#">nuevo comic</a> un vistazo.</p>
+            </div>
+
+            <div class="publicaciones">
+                <div class="encabezado-publicacion">
+
+                    <h2>Shinji</h2>
+                    <div class="meGusta">
+                        <p><span id="contador3">0</span>Like(s)</p>
+                        <button onclick="sumarLike3()">Like</button>
+                    </div>
+                    </div>
+                    <p>no puedo dejar de escuchar este <a href="#">album</a> ¿A quién mas le Gusta</p>
+                
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
