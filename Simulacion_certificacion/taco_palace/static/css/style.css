@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(3, 3, 3);
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: rgb(246, 247, 247);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.rojita{
+    color: rgb(255, 153, 0);
+    
+}
+.navbar button{
+    background-color: orange;
+    color: white;
+    border: none;
+   cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenedor-izquierda{
+    background-color: rgb(214, 201, 124);
+    margin-top: 15px;
+    padding: 2px;
+    justify-content: center;
+   text-align: center;
+}
+
+.plato1{
+    background-color: brown;
+    max-width: 390px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 20px;
+    flex-direction: row;
+    
+}
+.plato1 img{
+    width:50%;
+}
+.plato2{
+    background-color: brown;
+    max-width: 390px;
+    margin-top: 20px;
+    flex-direction: row;
+}
+.plato2 img{
+    width: 50% ;
+}
+
