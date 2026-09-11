@@ -45,7 +45,7 @@ body {
 }
 
 .plato1{
-    background-color: brown;
+    
     max-width: 390px;
     margin-top: 15px;
     text-align: center;
@@ -57,12 +57,53 @@ body {
     width:50%;
 }
 .plato2{
-    background-color: brown;
+    
     max-width: 390px;
     margin-top: 20px;
     flex-direction: row;
+   
 }
 .plato2 img{
     width: 50% ;
 }
+.plato3{
+    
+    max-width: 390px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 20px;
+    flex-direction: row;
+    
+}
+.plato3 img{
+    width: 50%;
+}
+.plato4{
 
+    max-width: 390px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 20px;
+    flex-direction: row;
+}
+.plato4 img{
+    width: 50%;
+}
+.plato5{
+  
+    max-width: 390px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 20px;
+    flex-direction: row;
+}
+.plato5 img{
+    width: 50%;
+}
+
+.tarjeta{
+  border-radius: 8px;
+  padding: 12px;
+    display: flex;
+    
+}
