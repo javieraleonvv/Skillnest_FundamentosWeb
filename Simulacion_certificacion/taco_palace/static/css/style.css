@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: solid 1px red;
 }
 
 body {
@@ -9,101 +10,55 @@ body {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-.navbar{
-    background-color: rgb(246, 247, 247);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px 25px;
-    display: flex;
-    justify-content: space-between;
-    height: 70px;
+
+.navbar {
+  background-color: rgb(246, 247, 247);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
 }
 
-.rojita{
-    color: rgb(255, 153, 0);
-    
+.rojita {
+  color: rgb(255, 153, 0);
 }
-.navbar button{
-    background-color: orange;
-    color: white;
-    border: none;
-   cursor: pointer;
-}
-
-.logo{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
+.navbar button {
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 
-.contenedor-izquierda{
-    background-color: rgb(214, 201, 124);
-    margin-top: 15px;
-    padding: 2px;
-    justify-content: center;
-   text-align: center;
+.logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
 
-.plato1{
-    
-    max-width: 390px;
-    margin-top: 15px;
-    text-align: center;
-    padding: 20px;
-    flex-direction: row;
-    
-}
-.plato1 img{
-    width:50%;
-}
-.plato2{
-    
-    max-width: 390px;
-    margin-top: 20px;
-    flex-direction: row;
-   
-}
-.plato2 img{
-    width: 50% ;
-}
-.plato3{
-    
-    max-width: 390px;
-    margin-top: 15px;
-    text-align: center;
-    padding: 20px;
-    flex-direction: row;
-    
-}
-.plato3 img{
-    width: 50%;
-}
-.plato4{
-
-    max-width: 390px;
-    margin-top: 15px;
-    text-align: center;
-    padding: 20px;
-    flex-direction: row;
-}
-.plato4 img{
-    width: 50%;
-}
-.plato5{
-  
-    max-width: 390px;
-    margin-top: 15px;
-    text-align: center;
-    padding: 20px;
-    flex-direction: row;
-}
-.plato5 img{
-    width: 50%;
+.contenedor-banner {
+  border: 2px solid green;
+  width: 100%;
+  background-color: rgb(252, 205, 152);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-.tarjeta{
+.plato {
+  max-width: 390px;
+}
+.plato img {
+  width: 20vh;
+}
+
+.tarjeta {
   border-radius: 8px;
   padding: 12px;
-    display: flex;
-    
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: center;
 }
