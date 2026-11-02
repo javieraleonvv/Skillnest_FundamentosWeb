@@ -65,13 +65,31 @@ body {
   justify-content: flex-start;
   text-align: center;
 }
-
-.inferior{
+.contenedor-general{
+  display: flex;
+}
+.principal{
+  display: flex;
+}
+.principal img{
+  width: 10vh;
+}
+.seccion-izquierda{
+  flex:2;
   background-color: aqua;
   padding: 99px;
-  width: 90vh;
+  flex-direction: column;
+
 }
-.barra-lateral{
+.seccion-derecha{
+  flex:1;
   flex-direction: column;
   justify-content: flex-start;
+  background-color: brown;
+}
+.platilloselregreso{
+  display: flex;
+}
+.platilloselregreso img{
+  width: 10vh;
 }
