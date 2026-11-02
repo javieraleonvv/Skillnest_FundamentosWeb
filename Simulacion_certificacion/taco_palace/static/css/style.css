@@ -37,21 +37,24 @@ body {
   align-items: center;
 }
 
+.container{
+  padding: 0 20vh;
+}
 .contenedor-banner {
-  border: 2px solid green;
-  width: 100%;
+  padding:30px;
   background-color: rgb(252, 205, 152);
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: center;
+  gap: 20px;   
+  width: 100%;
 }
 
 .plato {
   max-width: 390px;
 }
 .plato img {
-  width: 20vh;
+  width: 23vh;
 }
 
 .tarjeta {
@@ -61,4 +64,14 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   text-align: center;
+}
+
+.inferior{
+  background-color: aqua;
+  padding: 99px;
+  width: 90vh;
+}
+.barra-lateral{
+  flex-direction: column;
+  justify-content: flex-start;
 }
