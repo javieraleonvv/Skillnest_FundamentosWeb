@@ -13,15 +13,15 @@
 <body>
     <header class="navbar">
         <div class="logo">
-            <img id="icono" src="static/images/logo.png">
+            <img id="icono" src="static/images/logo.png" alt="icono">
             <h1> <span class="rojita">Taco</span> Palace
             </h1>
         </div>
         <div class="correo">
-            <input type="email" placeholder="email" name="email">
-            <button class="inicio">Login</button>
+            <input  id="texto" type="email" placeholder="email" name="email">
+            <button onclick="bienvenida()"  class="inicio">Login</button>
             <img src="static/images/carrito.png" alt="carrito">
-            <p> <span id="">0</span></p>
+            <p> <span id="contador-1">0</span></p>
         </div>
 
 
@@ -29,32 +29,32 @@
     <main class="container">
         <section class="contenedor-banner">
             <div class="plato">
-                <img id="imagen" src="static/images/enchiladas.jpg">
+                <img id="imagen" src="static/images/enchiladas.jpg" alt="comida">
                 <h3>Enchiladas</h3>
             </div>
 
             <div class="plato">
-                <img id="img_plato" src="static/images/tacos.jpg">
+                <img id="img_plato" src="static/images/tacos.jpg" alt="comida2">
                 <h3>Tacos</h3>
             </div>
 
             <div class="plato">
-                <img id="img_plato" src="static/images/flautas.jpg">
+                <img id="img_plato" src="static/images/flautas.jpg" alt="comida3">
                 <h3>flautas</h3>
             </div>
 
             <div class="plato">
-                <img id="img_plato" src="static/images/gorditas.jpg">
+                <img id="img_plato" src="static/images/gorditas.jpg" alt="comida4">
                 <h3>Gorditas</h3>
             </div>
 
             <div class="plato">
-                <img id="img_plato" src="static/images/tostadas.jpg">
+                <img id="img_plato" src="static/images/tostadas.jpg" alt="comida5">
                 <h3>Tostadas</h3>
             </div>
 
             <div class="plato">
-                <img id="img_plato" src="static/images/enfrijoladas.jpg">
+                <img id="img_plato" src="static/images/enfrijoladas.jpg" alt="comida6">
                 <h3>enfrijoladas</h3>
             </div>
         </section>
@@ -69,7 +69,8 @@
                         <span class="Negrita">Mexicana</span>
                     </h1>
                     <h3>
-                        contamos con <a href="#">Servicio</a> a
+                        contamos con 
+                        <a href="#">Servicio</a> a
                         <span class="rojita">
                             domicilio</span>
                     </h3>
@@ -92,7 +93,7 @@
                             <a href="#">Ver Más</a>
                         </div>
                         <div class="contenedor-boton">
-                            <button class="botonRedondo">+</button>
+                            <button onclick="compras('#contador-1')" class="botonRedondo">+</button>
                         </div>
                     </div>
 
@@ -106,7 +107,7 @@
                             <a href="#">Ver Más</a>
                         </div>
                         <div class="contenedor-boton">
-                            <button class="botonRedondo">+</button>
+                            <button onclick="compras('#contador-1')" class="botonRedondo">+</button>
                         </div>
                     </div>
 
